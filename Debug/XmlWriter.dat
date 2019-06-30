@@ -1,0 +1,87 @@
+
+  Testing XmlWriter
+  =================
+  creating XML writer object:
+  adding XML declaration:
+  <? xml version="1.0" ?>
+  adding comment:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+  adding root element:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root>
+  adding attributes:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  adding comment:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  <!-- comment in root's body -->
+  Creating self-closing element:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  <!-- comment in root's body -->
+  <child1>
+  adding attribute:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  <!-- comment in root's body -->
+  <child1 c1name="c1value">
+  adding child to root's body:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  <!-- comment in root's body -->
+  <child1 c1name="c1value">
+  </child1>
+  adding another comment
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  <!-- comment in root's body -->
+  <child1 c1name="c1value">
+  </child1>
+  <!-- another root's body comment -->
+  adding string to root's body:
+  <? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  <!-- comment in root's body -->
+  <child1 c1name="c1value">
+  </child1>
+  <!-- another root's body comment -->
+  <child2>
+    <grandchild21>
+    </grandchild21>
+  </child2>
+  root's body
+  closing root element:
+
+
+  writing completed XML
+ -----------------------
+<? xml version="1.0" ?>
+<!-- top level comment -->
+<root att1="val1" att2="val2">
+  <!-- comment in root's body -->
+  <child1 c1name="c1value">
+  </child1>
+  <!-- another root's body comment -->
+  <child2>
+    <grandchild21>
+    </grandchild21>
+  </child2>
+  root's body
+</root>
+  
+  writing XML to file "Test.xml":
+
+  creating composite element:
+  <child1>child1's body</child1><child2>child2's body</child2>
+  <parent><child1>child1's body</child1><child2>body2</child2></parent>
+

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph", "Graph\Graph.vcxproj", "{2A178BA5-9840-47FD-8047-4D832B22FB1D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XmlWriter", "XmlWriter\XmlWriter.vcxproj", "{8BD15208-4AF5-4F32-A4DD-E6DEB7B1C83C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PassFunct", "PassFunct\PassFunct.vcxproj", "{F6C635E9-2650-4893-AAD6-B6DC16E9C8DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A178BA5-9840-47FD-8047-4D832B22FB1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A178BA5-9840-47FD-8047-4D832B22FB1D}.Debug|Win32.Build.0 = Debug|Win32
+		{2A178BA5-9840-47FD-8047-4D832B22FB1D}.Release|Win32.ActiveCfg = Release|Win32
+		{2A178BA5-9840-47FD-8047-4D832B22FB1D}.Release|Win32.Build.0 = Release|Win32
+		{8BD15208-4AF5-4F32-A4DD-E6DEB7B1C83C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8BD15208-4AF5-4F32-A4DD-E6DEB7B1C83C}.Debug|Win32.Build.0 = Debug|Win32
+		{8BD15208-4AF5-4F32-A4DD-E6DEB7B1C83C}.Release|Win32.ActiveCfg = Release|Win32
+		{8BD15208-4AF5-4F32-A4DD-E6DEB7B1C83C}.Release|Win32.Build.0 = Release|Win32
+		{F6C635E9-2650-4893-AAD6-B6DC16E9C8DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6C635E9-2650-4893-AAD6-B6DC16E9C8DA}.Debug|Win32.Build.0 = Debug|Win32
+		{F6C635E9-2650-4893-AAD6-B6DC16E9C8DA}.Release|Win32.ActiveCfg = Release|Win32
+		{F6C635E9-2650-4893-AAD6-B6DC16E9C8DA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

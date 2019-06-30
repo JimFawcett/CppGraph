@@ -1,0 +1,23 @@
+
+<graph>
+  <vertex id="1" value="v2">
+    <edge targetId="2" value="e3">
+    </edge>
+  </vertex>
+  <vertex id="0" value="v1">
+    <edge targetId="1" value="e1">
+    </edge>
+    <edge targetId="2" value="e2">
+    </edge>
+  </vertex>
+  <vertex id="2" value="v3">
+  </vertex>
+  <vertex id="3" value="v4">
+    <edge targetId="2" value="e4">
+    </edge>
+  </vertex>
+  <vertex id="50" value="v5">
+    <edge targetId="1" value="e5">
+    </edge>
+  </vertex>
+</graph>

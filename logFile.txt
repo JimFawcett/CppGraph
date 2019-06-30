@@ -1,0 +1,116 @@
+
+                                             CodeAnalysis
+    ==============================================================================================
+     Command Line Arguments: C:\SU\Repository\CppGraph, *.h, *.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     113
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Graph.h   namespace                           GraphLib      85     336      51
+                   Graph.h       class                             Vertex      91      23      18
+                   Graph.h    function                               mark     120       2       1
+                   Graph.h    function                              begin     124       2       1
+                   Graph.h    function                                end     128       2       1
+                   Graph.h    function                             Vertex     132       2       1
+                   Graph.h    function                             Vertex     136       2       1
+                   Graph.h    function                                add     140       2       1
+                   Graph.h    function                         operator[]     144       2       1
+                   Graph.h    function                         operator[]     148       2       1
+                   Graph.h    function                              value     152       2       1
+                   Graph.h    function                                 id     156       2       1
+                   Graph.h    function                               size     160       2       1
+                   Graph.h    function                          addVertex     207       5       1
+                   Graph.h    function                            addEdge     225      12       1
+                   Graph.h    function                            dfsCore     241      14       3
+                   Graph.h    function                                dfs     259       5       1
+                   Graph.h       class                              Graph     168      20       7
+                   Graph.h    function                              begin     190       2       1
+                   Graph.h    function                                end     194       2       1
+                   Graph.h    function                         operator[]     198       2       1
+                   Graph.h    function                         operator[]     202       2       1
+                   Graph.h    function                               size     213       2       1
+                   Graph.h    function                findVertexIndexById     219       3       1
+                   Graph.h       class                            Display     270      50       8
+                   Graph.h    function                 vertsWithNoParents     277      25       4
+                   Graph.h    function                               show     304      16       3
+                   Graph.h    function                           ToString     323       5       1
+                   Graph.h    function                              ToInt     330       6       1
+                   Graph.h    function                 GraphFromXmlString     339      57      12
+                   Graph.h    function                   GraphToXmlString     399      21       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Graph.cpp    function                           showVert      21       3       1
+                 Graph.cpp    function                          TshowVert      27       3       1
+                 Graph.cpp    function                               main      34     104       6
+                 Graph.cpp       class                        showFunctor     105       7       2
+                 Graph.cpp    function                         operator()     108       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              PassFunc.cpp    function                       testFunction      13       3       1
+              PassFunc.cpp       class                        TestFunctor      18       6       2
+              PassFunc.cpp    function                         operator()      21       3       1
+              PassFunc.cpp    function                           TestArgs      28       3       1
+              PassFunc.cpp    function                               main      33       8       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               XmlReader.h       class                          XmlReader      59      22      21
+               XmlReader.h    function                              reset      82       2       1
+               XmlReader.h    function                           position      84       2       1
+               XmlReader.h    function                                xml      86       2       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             XmlReader.cpp    function                          XmlReader      15       2       1
+             XmlReader.cpp    function                  extractIdentifier      29      22       3
+             XmlReader.cpp    function                            element      54      58       5
+             XmlReader.cpp    function                               body     115      17       2
+             XmlReader.cpp    function                               next     135      12       2
+             XmlReader.cpp    function                                tag     150       4       1
+             XmlReader.cpp    function                         attributes     157      25       2
+             XmlReader.cpp    function                           position     185       6       1
+             XmlReader.cpp    function                        specialChar      21       5       1
+             XmlReader.cpp    function                               main     197      64       4
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               XmlWriter.h       class                          XmlWriter      58      22      19
+               XmlWriter.h    function                          XmlWriter      81       2       1
+               XmlWriter.h    function                                xml      83       2       1
+               XmlWriter.h    function                              clear      86       6       1
+               XmlWriter.h    function                             indent      92       2       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             XmlWriter.cpp    function                           indentIt      16       5       1
+             XmlWriter.cpp    function                              start      24      11       2
+             XmlWriter.cpp    function                       addAttribute      40      14       3
+             XmlWriter.cpp    function                            addBody      57       8       2
+             XmlWriter.cpp    function                                end      68      11       2
+             XmlWriter.cpp    function                            element      82       6       1
+             XmlWriter.cpp    function                     addDeclaration      93       4       1
+             XmlWriter.cpp    function                         addComment     102       8       2
+             XmlWriter.cpp    function                               mOut     118       3       1
+             XmlWriter.cpp    function                               main     123      85       2
+
+                                  Functions Exceeding Metric Limits
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Graph.h    function                 GraphFromXmlString     339      57      12
+                 Graph.cpp    function                               main      34     104       6
+             XmlReader.cpp    function                            element      54      58       5
+             XmlReader.cpp    function                               main     197      64       4
+             XmlWriter.cpp    function                               main     123      85       2
+
+
+    searched     8 dirs
+   processed     7 files
